@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url(https://img.freepik.com/photos-gratuite/feuilles-bourgeons-the-vert-plantations-the-vert-matin_335224-955.jpg?w=2000);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+div.title{
+  text-align: center;
+}
+form {
+  width: 300px;
+  margin: 0 auto;
+}
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+.select{
+  width: 200px;
+  margin-bottom: 10px;
+}
+input[type="text"] {
+  width: 200px;
+  margin-bottom: 10px;
+}
+input[type="number"] {
+  width: 200px;
+  margin-bottom: 10px;
+}
+input[type="button"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+input[type="button"]:hover {
+  background-color: #45a049;
+}
+#result {
+  margin-top: 20px;
+  font-size: 18px;
+}
